@@ -1,5 +1,4 @@
-{
-  "events": [
+[
     {
       "count": 1,
       "eventTime": null,
@@ -63,4 +62,3 @@
       "type": "Warning"
     }
   ]
-}
