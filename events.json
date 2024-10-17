@@ -1,0 +1,66 @@
+{
+  "events": [
+    {
+      "count": 1,
+      "eventTime": null,
+      "firstTimestamp": "2024-10-16T12:57:26Z",
+      "involvedObject": {
+        "apiVersion": "git.krateo.io/v1alpha1",
+        "kind": "Repo",
+        "name": "krateo-demo-fireworks-app-repo",
+        "resourceVersion": "4671",
+        "uid": "8acddec2-3fac-4705-940f-16b2f9f19f69"
+      },
+      "lastTimestamp": "2024-10-16T12:57:26Z",
+      "message": "Acloning toRepo: https://github.com/AndreaTosti/fireworksapp-test-v2: repository not found",
+      "metadata": {
+        "annotations": {
+          "external-name": ""
+        },
+        "creationTimestamp": "2024-10-18T12:57:26Z",
+        "labels": {
+          "krateo.io/composition-id": "5adc40a3-648d-474f-91d6-00b763b887aa"
+        },
+        "managedFields": [
+          {
+            "apiVersion": "v1",
+            "fieldsType": "FieldsV1",
+            "fieldsV1": {
+              "f:count": {},
+              "f:firstTimestamp": {},
+              "f:involvedObject": {},
+              "f:lastTimestamp": {},
+              "f:message": {},
+              "f:metadata": {
+                "f:annotations": {
+                  ".": {},
+                  "f:external-name": {}
+                }
+              },
+              "f:reason": {},
+              "f:reportingComponent": {},
+              "f:source": {
+                "f:component": {}
+              },
+              "f:type": {}
+            },
+            "manager": "manager",
+            "operation": "Update",
+            "time": "2024-10-16T12:57:26Z"
+          }
+        ],
+        "name": "krateo-demo-fireworks-app-repo.17fef03bbd32119e",
+        "namespace": "default",
+        "resourceVersion": "4693",
+        "uid": "8ec534f7-4c0d-43bd-910f-e63fe6b3c6df"
+      },
+      "reason": "CannotCreateExternalResource",
+      "reportingComponent": "managed/repo.git.krateo.io",
+      "reportingInstance": "",
+      "source": {
+        "component": "managed/repo.git.krateo.io"
+      },
+      "type": "Warning"
+    }
+  ]
+}
